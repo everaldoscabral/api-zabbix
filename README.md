@@ -6,7 +6,7 @@
   - auto-add-hosts.py
    
 ## Installation
-
+## Updated on 01/21/2022
 You need lib zabbix-api and pip3
 
 ```sh
