@@ -13,7 +13,7 @@ You need lib zabbix-api and pip3
 # apt-get install python-pip git or yum install python3-pip git
 # pip3 install pyzabbix progressbar
 
-$ git clone https://github.com/janssenlima/api-zabbix
+$ git clone https://github.com/everaldoscabral/api-zabbix
 ```
 
 ## How to use - examples
