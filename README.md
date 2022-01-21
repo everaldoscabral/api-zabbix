@@ -38,7 +38,7 @@ hostautomatico100;192.168.0.100
 >Just run
 
 ```sh
-$ python auto-add-hosts.py
+$ python3 auto-add-hosts.py
 ```
 
 #### ack_event_zabbix.py
