@@ -7,11 +7,11 @@
    
 ## Installation
 
-You need lib zabbix-api and pip
+You need lib zabbix-api and pip3
 
 ```sh
-# apt-get install python-pip git
-# pip install zabbix-api
+# apt-get install python-pip git or yum install python3-pip git
+# pip3 install pyzabbix progressbar
 
 $ git clone https://github.com/janssenlima/api-zabbix
 ```
