@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #author: Janssen dos Reis Lima
-#Revision: Everaldo Santos Cabral
-#21/01/2021
+#Revision: Everaldo Santos Cabral::21/01/2021
 
 import sys
 import logging
