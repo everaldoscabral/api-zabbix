@@ -19,6 +19,8 @@ from progressbar import ProgressBar, Percentage, ETA, ReverseBar, RotatingMarker
 
 zapi = ZabbixAPI("http://localhost/zabbix")
 zapi.login(user="USER", password="PASSWORD")
+##CASO DÊ ERRO AO TENTAR LOGAR USAR ABAIXO
+#zapi = ZabbixAPI("http://localhost/zabbix", user='USER', password='PASSWORD')
 
 # Disable SSL certificate verification
 zapi.session.verify = False
