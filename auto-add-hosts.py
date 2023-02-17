@@ -18,12 +18,11 @@ from progressbar import ProgressBar, Percentage, ETA, ReverseBar, RotatingMarker
 #log.setLevel(logging.DEBUG)
 
 zapi = ZabbixAPI("http://localhost/zabbix")
+# Disable SSL certificate verification
+zapi.session.verify = False
 zapi.login(user="USER", password="PASSWORD")
 ##CASO DÊ ERRO AO TENTAR LOGAR USAR ABAIXO
 #zapi = ZabbixAPI("http://localhost/zabbix", user='USER', password='PASSWORD')
-
-# Disable SSL certificate verification
-zapi.session.verify = False
 
 # Specify a timeout (in seconds)
 zapi.timeout = 5.1
